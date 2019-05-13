@@ -30,7 +30,7 @@ elif paramNum == 3:
 
 # 用户名
 user_id = 'jiangfei'
-# 用户的token值(每个user有对应的token----如本文第3.1节所示)
+# 用户的token值(每个user有对应的token)
 api_token = 'yourtoken'
 
 auth = HTTPBasicAuth(user_id, api_token)
